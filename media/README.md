@@ -16,6 +16,17 @@
 
 루트 README의 대표 사진과 영상 미리보기는 위 자료를 바탕으로 선정했습니다. `previews/`는 README에 표시하기 위한 축소 이미지와 영상 프리뷰 등 파생 자료를 두는 폴더입니다. 보존한 사진·영상은 각각 `photos/`, `videos/`에서 확인할 수 있습니다.
 
+### README용 미리보기의 출처
+
+| 파일 | 출처와 변환 |
+| --- | --- |
+| [prototype-overview.jpg](previews/prototype-overview.jpg) | `IMG_4257.jpeg`를 회전 정보를 반영해 최대 1600px로 축소 |
+| [team-grand-prize.jpg](previews/team-grand-prize.jpg) | `IMG_4268.jpeg`를 최대 1400px로 축소 |
+| [token-lid-attachment.jpg](previews/token-lid-attachment.jpg) | `IMG_4250.jpeg`를 회전 정보를 반영해 최대 800px로 축소 |
+| [token-side-attachment.jpg](previews/token-side-attachment.jpg) | `IMG_4254.jpeg`를 회전 정보를 반영해 최대 800px로 축소 |
+| [rfid-reader-and-gui-demo.gif](previews/rfid-reader-and-gui-demo.gif) | `IMG_4244.MOV` 전체에서 0.5초 간격으로 추출한 무음 미리보기, 가로 300px |
+| [food-tracking-dashboard.png](previews/food-tracking-dashboard.png) | [최종 발표 자료](../DesignAndPresentation/웬투잇.pptx) 6번 슬라이드의 GUI 이미지 추출본 |
+
 ## 사진
 
 ### 제작 과정 · `photos/development/`
