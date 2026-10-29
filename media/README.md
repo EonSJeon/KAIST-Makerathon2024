@@ -1,104 +1,104 @@
-# 사진·영상 자료실
+# Photo and Video Catalog
 
-[프로젝트 README로 돌아가기](../README.md)
+[Back to the project README](../README.md)
 
-2024 KAIST 메이커톤의 제작 과정, 토큰 부착 방식, 완성된 시제품, 시연과 수상 기록을 모았습니다. 사진 **26장**과 영상 **4개**를 내용에 따라 분류하고 이름을 바꾸었으며, 정리 대상 파일은 모두 보존했습니다. 비슷한 구도의 연속 사진도 남겨 두었습니다.
+This collection documents development, token attachments, the completed prototype, demos, and the award at the 2024 KAIST Makerathon. All **26 photos** and **4 videos** have been preserved, renamed, and grouped by content. Similar consecutive shots are also retained.
 
-파일명은 내용을 나타내는 영문 소문자와 하이픈으로 구성했습니다. 같은 장면의 여러 컷은 `01`, `02`, `03`으로 구분합니다. 아래 표에서 이전 파일명과 현재 파일을 대조할 수 있습니다.
+Filenames use descriptive lowercase English words separated by hyphens. Multiple shots of the same scene use `01`, `02`, or `03`. The tables below map original camera filenames and legacy sources to their current paths.
 
-## 대표 자료
+## Featured Media
 
-| 자료 | 선정 이유 |
+| Media | Why it was selected |
 | --- | --- |
-| [시스템 전체 모습](photos/prototype/prototype-system-overview-01.jpeg) | 냉장고 목업, 토큰 보관함과 리더, GUI를 한 장에서 볼 수 있습니다. |
-| [팀과 완성품 기념사진](photos/awards/team-with-prototype-landscape.jpeg) | 팀원 4명, 완성품, 대상 상금보드를 함께 보여주는 가로 사진입니다. |
-| [리더와 GUI 시연 영상](videos/demo/rfid-reader-and-gui-demo.mov) | 토큰 리더와 식품 목록 화면을 함께 담은 시연 기록입니다. |
+| [Complete system](photos/prototype/prototype-system-overview-01.jpeg) | Shows the refrigerator mockup, token box, reader, and GUI together. |
+| [Team with the prototype](photos/awards/team-with-prototype-landscape.jpeg) | A landscape photo showing all four team members, the completed prototype, and the Grand Prize board. |
+| [Reader and GUI demo](videos/demo/rfid-reader-and-gui-demo.mov) | Shows the token reader setup and food list interface in one clip. |
 
-루트 README의 대표 사진과 영상 미리보기는 위 자료를 바탕으로 선정했습니다. `previews/`는 README에 표시하기 위한 축소 이미지와 영상 프리뷰 등 파생 자료를 두는 폴더입니다. 보존한 사진·영상은 각각 `photos/`, `videos/`에서 확인할 수 있습니다.
+The project README features these photos and the demo. The `previews/` folder contains resized images and video previews for the README. Original photos and videos are stored in `photos/` and `videos/`.
 
-### README용 미리보기의 출처
+### Preview Sources
 
-| 파일 | 출처와 변환 |
+| File | Source and conversion |
 | --- | --- |
-| [prototype-overview.jpg](previews/prototype-overview.jpg) | `IMG_4257.jpeg`를 회전 정보를 반영해 최대 1600px로 축소 |
-| [team-grand-prize.jpg](previews/team-grand-prize.jpg) | `IMG_4268.jpeg`를 최대 1400px로 축소 |
-| [token-lid-attachment.jpg](previews/token-lid-attachment.jpg) | `IMG_4250.jpeg`를 회전 정보를 반영해 최대 800px로 축소 |
-| [token-side-attachment.jpg](previews/token-side-attachment.jpg) | `IMG_4254.jpeg`를 회전 정보를 반영해 최대 800px로 축소 |
-| [rfid-reader-and-gui-demo.gif](previews/rfid-reader-and-gui-demo.gif) | `IMG_4244.MOV` 전체에서 0.5초 간격으로 추출한 무음 미리보기, 가로 300px |
-| [food-tracking-dashboard.png](previews/food-tracking-dashboard.png) | [최종 발표 자료](../DesignAndPresentation/웬투잇.pptx) 6번 슬라이드의 GUI 이미지 추출본 |
+| [prototype-overview.jpg](previews/prototype-overview.jpg) | `IMG_4257.jpeg`, orientation corrected and resized to a maximum dimension of 1600 px |
+| [team-grand-prize.jpg](previews/team-grand-prize.jpg) | `IMG_4268.jpeg`, resized to a maximum dimension of 1400 px |
+| [token-lid-attachment.jpg](previews/token-lid-attachment.jpg) | `IMG_4250.jpeg`, orientation corrected and resized to a maximum dimension of 800 px |
+| [token-side-attachment.jpg](previews/token-side-attachment.jpg) | `IMG_4254.jpeg`, orientation corrected and resized to a maximum dimension of 800 px |
+| [rfid-reader-and-gui-demo.gif](previews/rfid-reader-and-gui-demo.gif) | Silent preview sampled every 0.5 seconds throughout `IMG_4244.MOV`, 300 px wide |
+| [food-tracking-dashboard.png](previews/food-tracking-dashboard.png) | GUI image extracted from slide 6 of the [final presentation](../DesignAndPresentation/when-to-eat-final-presentation.pptx) |
 
-## 사진
+## Photos
 
-### 제작 과정 · `photos/development/`
+### Development · `photos/development/`
 
-| 이전 파일명 | 현재 파일 | 내용 |
+| Original file / source | Current file | Description |
 | --- | --- | --- |
-| `IMG_4245.jpeg` | [prototype-development-workbench.jpeg](photos/development/prototype-development-workbench.jpeg) | 개발 화면이 열린 노트북, 투명 리더 박스와 제작한 토큰들이 놓인 작업대입니다. |
+| `IMG_4245.jpeg` | [prototype-development-workbench.jpeg](photos/development/prototype-development-workbench.jpeg) | Workbench with a laptop running the development interface, a transparent reader box, and fabricated tokens. |
 
-### 토큰 · `photos/tokens/`
+### Tokens · `photos/tokens/`
 
-| 이전 파일명 | 현재 파일 | 내용 |
+| Original file / source | Current file | Description |
 | --- | --- | --- |
-| `IMG_4246.jpeg` | [blue-meat-token-handheld-01.jpeg](photos/tokens/blue-meat-token-handheld-01.jpeg) | 파란 테두리의 육류 그림 토큰을 손에 들고 보여주는 근접 사진 1입니다. |
-| `IMG_4247.jpeg` | [blue-meat-token-handheld-02.jpeg](photos/tokens/blue-meat-token-handheld-02.jpeg) | 같은 육류 토큰의 근접 사진 2입니다. |
-| `IMG_4248.jpeg` | [red-vegetable-token-handheld-01.jpeg](photos/tokens/red-vegetable-token-handheld-01.jpeg) | 빨간 테두리의 채소 그림 토큰을 손에 들고 보여주는 근접 사진 1입니다. |
-| `IMG_4249.jpeg` | [red-vegetable-token-handheld-02.jpeg](photos/tokens/red-vegetable-token-handheld-02.jpeg) | 같은 채소 토큰의 근접 사진 2입니다. |
+| `IMG_4246.jpeg` | [blue-meat-token-handheld-01.jpeg](photos/tokens/blue-meat-token-handheld-01.jpeg) | Handheld close-up of a blue-bordered meat token, shot 1. |
+| `IMG_4247.jpeg` | [blue-meat-token-handheld-02.jpeg](photos/tokens/blue-meat-token-handheld-02.jpeg) | A second close-up of the same meat token. |
+| `IMG_4248.jpeg` | [red-vegetable-token-handheld-01.jpeg](photos/tokens/red-vegetable-token-handheld-01.jpeg) | Handheld close-up of a red-bordered vegetable token, shot 1. |
+| `IMG_4249.jpeg` | [red-vegetable-token-handheld-02.jpeg](photos/tokens/red-vegetable-token-handheld-02.jpeg) | A second close-up of the same vegetable token. |
 
-### 용기 부착 방식 · `photos/attachments/`
+### Container Attachments · `photos/attachments/`
 
-| 이전 파일명 | 현재 파일 | 내용 |
+| Original file / source | Current file | Description |
 | --- | --- | --- |
-| `IMG_4250.jpeg` | [vegetable-token-on-container-lid-01.jpeg](photos/attachments/vegetable-token-on-container-lid-01.jpeg) | 채소 토큰을 뚜껑에 붙인 투명 식품 용기를 손에 들고 보여주는 사진 1입니다. |
-| `IMG_4251.jpeg` | [vegetable-token-on-container-lid-02.jpeg](photos/attachments/vegetable-token-on-container-lid-02.jpeg) | 같은 용기와 채소 토큰의 사진 2입니다. |
-| `IMG_4252.jpeg` | [meat-token-on-container-lid-01.jpeg](photos/attachments/meat-token-on-container-lid-01.jpeg) | 뚜껑 위에 육류 토큰이 놓인 식품 용기와 아래쪽 토큰 보관함을 보여주는 사진 1입니다. |
-| `IMG_4253.jpeg` | [meat-token-on-container-lid-02.jpeg](photos/attachments/meat-token-on-container-lid-02.jpeg) | 같은 뚜껑 부착 방식과 토큰 보관함의 사진 2입니다. |
-| `IMG_4254.jpeg` | [meat-token-on-container-side-01.jpeg](photos/attachments/meat-token-on-container-side-01.jpeg) | 뚜껑 없는 투명 식품 용기의 측면에 육류 토큰을 붙인 사진 1입니다. |
-| `IMG_4255.jpeg` | [meat-token-on-container-side-02.jpeg](photos/attachments/meat-token-on-container-side-02.jpeg) | 같은 측면 부착 방식의 사진 2입니다. |
+| `IMG_4250.jpeg` | [vegetable-token-on-container-lid-01.jpeg](photos/attachments/vegetable-token-on-container-lid-01.jpeg) | A clear food container held up with a vegetable token on its lid, shot 1. |
+| `IMG_4251.jpeg` | [vegetable-token-on-container-lid-02.jpeg](photos/attachments/vegetable-token-on-container-lid-02.jpeg) | A second shot of the same container and vegetable token. |
+| `IMG_4252.jpeg` | [meat-token-on-container-lid-01.jpeg](photos/attachments/meat-token-on-container-lid-01.jpeg) | A meat token on a container lid, with the token storage box below, shot 1. |
+| `IMG_4253.jpeg` | [meat-token-on-container-lid-02.jpeg](photos/attachments/meat-token-on-container-lid-02.jpeg) | A second shot of the same lid attachment and storage box. |
+| `IMG_4254.jpeg` | [meat-token-on-container-side-01.jpeg](photos/attachments/meat-token-on-container-side-01.jpeg) | A meat token attached to the side of an open clear container, shot 1. |
+| `IMG_4255.jpeg` | [meat-token-on-container-side-02.jpeg](photos/attachments/meat-token-on-container-side-02.jpeg) | A second shot of the same side attachment. |
 
-### 시제품과 GUI · `photos/prototype/`
+### Prototype and GUI · `photos/prototype/`
 
-| 이전 파일명 | 현재 파일 | 내용 |
+| Original file / source | Current file | Description |
 | --- | --- | --- |
-| `IMG_4256.jpeg` | [refrigerator-mockup-front.jpeg](photos/prototype/refrigerator-mockup-front.jpeg) | 내부에 식품 용기가 놓인 목재 냉장고 목업의 정면입니다. |
-| `IMG_4257.jpeg` | [prototype-system-overview-01.jpeg](photos/prototype/prototype-system-overview-01.jpeg) | 냉장고 목업, 토큰 보관함과 리더, GUI 노트북을 함께 보여주는 전체 전경 1입니다. README 대표 사진입니다. |
-| `IMG_4258.jpeg` | [prototype-system-overview-02.jpeg](photos/prototype/prototype-system-overview-02.jpeg) | 같은 시스템 전체 전경의 사진 2입니다. |
-| `IMG_4259.jpeg` | [food-tracking-gui-on-laptop.jpeg](photos/prototype/food-tracking-gui-on-laptop.jpeg) | 식품 목록과 날짜, 색상 표시가 있는 GUI를 실행한 노트북의 근접 사진입니다. |
+| `IMG_4256.jpeg` | [refrigerator-mockup-front.jpeg](photos/prototype/refrigerator-mockup-front.jpeg) | Front view of the wooden refrigerator mockup with food containers inside. |
+| `IMG_4257.jpeg` | [prototype-system-overview-01.jpeg](photos/prototype/prototype-system-overview-01.jpeg) | Complete setup with the refrigerator mockup, token box, reader, and laptop GUI, shot 1. Featured in the project README. |
+| `IMG_4258.jpeg` | [prototype-system-overview-02.jpeg](photos/prototype/prototype-system-overview-02.jpeg) | A second overview of the complete system. |
+| `IMG_4259.jpeg` | [food-tracking-gui-on-laptop.jpeg](photos/prototype/food-tracking-gui-on-laptop.jpeg) | Close-up of the laptop GUI displaying the food list, dates, and color indicators. |
 
-### 팀과 수상 기록 · `photos/awards/`
+### Team and Award · `photos/awards/`
 
-| 이전 파일명 | 현재 파일 | 내용 |
+| Original file / source | Current file | Description |
 | --- | --- | --- |
-| `IMG_4267.jpeg` | [team-with-prototype-candid.jpeg](photos/awards/team-with-prototype-candid.jpeg) | 팀원 4명과 완성품, 노트북, 대상 보드가 함께 보이는 자연스러운 가로 컷입니다. |
-| `IMG_4268.jpeg` | [team-with-prototype-landscape.jpeg](photos/awards/team-with-prototype-landscape.jpeg) | 팀원 4명, 완성품과 상금보드를 담은 가로 기념사진입니다. README 대표 사진입니다. |
-| `IMG_4269.jpeg` | [team-with-prototype-full-length.jpeg](photos/awards/team-with-prototype-full-length.jpeg) | 팀의 전신, 완성품과 노트북을 담은 세로 전체 컷입니다. |
-| `IMG_4270.jpeg` | [team-with-prototype-portrait.jpeg](photos/awards/team-with-prototype-portrait.jpeg) | 팀과 완성품을 담은 세로 기념사진입니다. |
-| `IMG_4271.jpeg` | [team-with-prototype-closeup-01.jpeg](photos/awards/team-with-prototype-closeup-01.jpeg) | 인물과 완성품을 크게 담은 세로 근접 사진 1입니다. |
-| `IMG_4272.jpeg` | [team-with-prototype-closeup-02.jpeg](photos/awards/team-with-prototype-closeup-02.jpeg) | 같은 구도의 세로 근접 사진 2로, 표정과 얼굴 각도가 다릅니다. |
-| `IMG_4273.jpeg` | [team-with-prototype-closeup-03.jpeg](photos/awards/team-with-prototype-closeup-03.jpeg) | 인물과 목업을 가까이 담은 세로 근접 사진 3입니다. |
-| `IMG_4274.jpeg` | [grand-prize-board.jpeg](photos/awards/grand-prize-board.jpeg) | 손에 든 상금보드에 `2024 KAIST 메이커톤`, `대상`, `2,500,000`이 보입니다. |
-| `Photo/수상장면.jpg` | [team-with-prototype-portrait-web.jpg](photos/awards/team-with-prototype-portrait-web.jpg) | 기존 `Photo/`에 있던 1080×1440 축소본입니다. `IMG_4270.jpeg`와 같은 장면이며 별도 파일로 보존했습니다. |
-| `Photo/상품명패.jpg` | [grand-prize-board-web.jpg](photos/awards/grand-prize-board-web.jpg) | 기존 `Photo/`에 있던 1080×1440 상금보드 축소본입니다. `IMG_4274.jpeg`와 같은 장면이며 별도 파일로 보존했습니다. |
+| `IMG_4267.jpeg` | [team-with-prototype-candid.jpeg](photos/awards/team-with-prototype-candid.jpeg) | Candid landscape shot of four team members, the prototype, laptop, and Grand Prize board. |
+| `IMG_4268.jpeg` | [team-with-prototype-landscape.jpeg](photos/awards/team-with-prototype-landscape.jpeg) | Landscape team photo with the completed prototype and prize board. Featured in the project README. |
+| `IMG_4269.jpeg` | [team-with-prototype-full-length.jpeg](photos/awards/team-with-prototype-full-length.jpeg) | Full-length portrait photo of the team with the prototype and laptop. |
+| `IMG_4270.jpeg` | [team-with-prototype-portrait.jpeg](photos/awards/team-with-prototype-portrait.jpeg) | Portrait team photo with the completed prototype. |
+| `IMG_4271.jpeg` | [team-with-prototype-closeup-01.jpeg](photos/awards/team-with-prototype-closeup-01.jpeg) | Closer portrait shot of the team and prototype, shot 1. |
+| `IMG_4272.jpeg` | [team-with-prototype-closeup-02.jpeg](photos/awards/team-with-prototype-closeup-02.jpeg) | A second close-up with different expressions and face angles. |
+| `IMG_4273.jpeg` | [team-with-prototype-closeup-03.jpeg](photos/awards/team-with-prototype-closeup-03.jpeg) | A third close-up of the team and mockup. |
+| `IMG_4274.jpeg` | [grand-prize-board.jpeg](photos/awards/grand-prize-board.jpeg) | Handheld prize board displaying the 2024 KAIST Makerathon Grand Prize and KRW 2,500,000. |
+| Legacy team portrait from `Photo/` | [team-with-prototype-portrait-web.jpg](photos/awards/team-with-prototype-portrait-web.jpg) | Existing 1080×1440 reduced copy of the scene in `IMG_4270.jpeg`, preserved as a separate file. |
+| Legacy prize board photo from `Photo/` | [grand-prize-board-web.jpg](photos/awards/grand-prize-board-web.jpg) | Existing 1080×1440 reduced copy of the scene in `IMG_4274.jpeg`, preserved as a separate file. |
 
-### 행사 기록 · `photos/event/`
+### Event · `photos/event/`
 
-| 이전 파일명 | 현재 파일 | 내용 |
+| Original file / source | Current file | Description |
 | --- | --- | --- |
-| `IMG_4275.jpeg` | [participant-badge-sangeon-jeon.jpeg](photos/event/participant-badge-sangeon-jeon.jpeg) | `2024 KAIST 메이커톤`, `전상언`, 팀명 `노인과 바둑`이 적힌 참가자 명찰입니다. |
+| `IMG_4275.jpeg` | [participant-badge-sangeon-jeon.jpeg](photos/event/participant-badge-sangeon-jeon.jpeg) | Participant badge showing the event, Sangeon Jeon, and the team name, The Old Man and Go. |
 
-## 영상
+## Videos
 
-### 개발·시연 · `videos/demo/`
+### Development and Demo · `videos/demo/`
 
-| 이전 파일명 | 현재 파일 | 길이 | 내용 |
+| Original file | Current file | Duration | Description |
 | --- | --- | --- | --- |
-| `IMG_4229.MOV` | [food-list-update-test.mov](videos/demo/food-list-update-test.mov) | 약 14.44초 | 소스 코드가 보이는 초기 GUI 개발 테스트입니다. 식품 목록의 항목 수가 0개에서 2개로 늘었다가 다시 0개가 되는 과정을 담았습니다. |
-| `IMG_4244.MOV` | [rfid-reader-and-gui-demo.mov](videos/demo/rfid-reader-and-gui-demo.mov) | 약 12.07초 | 리더와 토큰 보관함, 식품 목록 GUI를 함께 담은 세로 시연 영상입니다. README 대표 영상입니다. |
+| `IMG_4229.MOV` | [food-list-update-test.mov](videos/demo/food-list-update-test.mov) | Approx. 14.44 s | Early GUI development test with source code visible. The food list changes from 0 items to 2, then back to 0. |
+| `IMG_4244.MOV` | [rfid-reader-and-gui-demo.mov](videos/demo/rfid-reader-and-gui-demo.mov) | Approx. 12.07 s | Portrait demo showing the reader, token storage box, and food list GUI. Featured in the project README. |
 
-### 행사 현장 · `videos/event/`
+### Event · `videos/event/`
 
-| 이전 파일명 | 현재 파일 | 길이 | 내용 |
+| Original file | Current file | Duration | Description |
 | --- | --- | --- | --- |
-| `IMG_4261.MOV` | [makerathon-stage-preparation.mov](videos/event/makerathon-stage-preparation.mov) | 약 2.83초 | 행사 타이틀 화면과 무대에서 준비하는 모습을 담은 짧은 기록입니다. |
-| `IMG_4262.MOV` | [makerathon-presentation-session.mov](videos/event/makerathon-presentation-session.mov) | 약 1.53초 | 발표가 진행 중인 행사 무대를 담은 짧은 기록입니다. |
+| `IMG_4261.MOV` | [makerathon-stage-preparation.mov](videos/event/makerathon-stage-preparation.mov) | Approx. 2.83 s | Brief recording of the event title screen and stage preparations. |
+| `IMG_4262.MOV` | [makerathon-presentation-session.mov](videos/event/makerathon-presentation-session.mov) | Approx. 1.53 s | Brief recording of a presentation in progress at the event. |
 
-영상 링크를 열어 원본을 확인할 수 있습니다. README의 움직이는 미리보기는 보기 편하도록 만든 파생 자료이므로, 전체 영상과 소리는 위 파일을 기준으로 확인해 주세요.
+Open the video links to view the originals. The animated README preview is a derived file; use the originals for the complete clips and audio.
